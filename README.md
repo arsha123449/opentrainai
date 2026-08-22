@@ -69,10 +69,10 @@ $$S = \text{Task Difficulty } (D) \times \text{Execution Duration } (T_{\text{ex
 
 Each worker's payout from the block's **97% Worker Pool** is determined by their proportional score share relative to all active workers in that block:
 
-$$\text{Worker Reward} = \left( \frac{S_{\text{worker}}}{\sum S_{\text{all_workers_in_block}}} \right) \times \left( R_{\text{block}} \times 0.97 \right)$$
+$$\text{Worker Reward} = \left( \frac{S_{\text{worker}}}{\sum S_{\text{all workers in block}}} \right) \times \left( R_{\text{block}} \times 0.97 \right)$$
 
 * **$S_{\text{worker}}$:** Your node's total compute score earned in the 30-second block window.
-* **$\sum S_{\text{all\_workers_in_block}}$:** The sum of all compute scores across every valid node in the network for that block.
+* **$\sum S_{\text{all workers in block}}$:** The sum of all compute scores across every valid node in the network for that block.
 * **$R_{\text{block}}$:** The native base block reward ($16,905.50\ \text{OTAI}$ in Era 1).
 
 ---
