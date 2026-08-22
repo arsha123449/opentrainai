@@ -73,7 +73,7 @@ $$\text{Worker Reward} = \left( \frac{S_{\text{worker}}}{\sum S_{\text{all\_work
 
 * **$S_{\text{worker}}$:** Your node's total compute score earned in the 30-second block window.
 * **$\sum S_{\text{all\_workers\_in\_block}}$:** The sum of all compute scores across every valid node in the network for that block.
-* **$R_{\text{block}}$:** The native base block reward ($16,905.50\ \$OTAI$ in Era 1).
+* **$R_{\text{block}}$:** The native base block reward ($16,905.50\ \text{OTAI}$ in Era 1).
 
 ---
 
