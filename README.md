@@ -167,6 +167,8 @@ cargo build --release
 ./target/release/opentrain-node --dev
 ```
 
+---
+
 ## Run a GPU Worker
 
 ```bash
@@ -180,6 +182,8 @@ pip install -r requirements.txt
 python worker.py --node-url http://localhost:9933 --gpu-id 0
 ```
 
+---
+
 ## 📄 License
 - This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -188,3 +192,5 @@ python worker.py --node-url http://localhost:9933 --gpu-id 0
 
 ## ⚠️ Disclaimer
 - This software is provided as-is for educational and research purposes. Cryptocurrency investments carry high risk. Please do your own due diligence before participating in the network.
+
+---
